@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Madhavi Yamani" => "" }
   spec.platform     = :ios
   spec.ios.deployment_target = "11.0"
-  spec.source       = { :path => '.' }
+ # spec.source       = { :path => '.' }
   spec.source_files = "TestingFramework"
-  # spec.source       = { :git => "https://github.com/madhaviyamani/TestFramework.git", :tag => "s.version.to_spec" }
+spec.source       = { :git => "https://github.com/madhaviyamani/TestFramework.git", :tag => "0.1.0" }
 end
